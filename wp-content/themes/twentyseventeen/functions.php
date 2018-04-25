@@ -586,6 +586,14 @@ function twentyseventeen_widget_tag_cloud_args( $args ) {
 }
 add_filter( 'widget_tag_cloud_args', 'twentyseventeen_widget_tag_cloud_args' );
 
+// PayPal Express Checkout
+function paypal_scripts() {
+	wp_enqueue_script( 'paypal_scripts', get_template_directory_uri().'/js/expresscheckout.js' , array(), date('U'));
+}
+
+add_action( 'wp_enqueue_scripts', 'paypal_scripts' );
+
+
 /**
  * Implement the Custom Header feature.
  */

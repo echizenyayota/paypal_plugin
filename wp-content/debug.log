@@ -1,0 +1,78 @@
+[25-Apr-2018 07:45:36 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_script' (T_STRING) in /var/www/wordpress/wp-content/themes/twentyseventeen/functions.php on line 617
+[25-Apr-2018 07:46:36 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_script' (T_STRING) in /var/www/wordpress/wp-content/themes/twentyseventeen/functions.php on line 592
+[25-Apr-2018 07:46:57 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_script' (T_STRING) in /var/www/wordpress/wp-content/themes/twentyseventeen/functions.php on line 592
+[25-Apr-2018 07:48:02 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_script' (T_STRING) in /var/www/wordpress/wp-content/themes/twentyseventeen/functions.php on line 592
+[25-Apr-2018 07:48:25 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_script' (T_STRING) in /var/www/wordpress/wp-content/themes/twentyseventeen/functions.php on line 592
+[25-Apr-2018 07:48:31 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_script' (T_STRING) in /var/www/wordpress/wp-content/themes/twentyseventeen/functions.php on line 592
+[25-Apr-2018 07:49:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'paypal_scriptst' not found or invalid function name in /var/www/wordpress/wp-includes/class-wp-hook.php on line 286
+[25-Apr-2018 07:49:05 UTC] PHP Stack trace:
+[25-Apr-2018 07:49:05 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[25-Apr-2018 07:49:05 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[25-Apr-2018 07:49:05 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:19
+[25-Apr-2018 07:49:05 UTC] PHP   4. include() /var/www/wordpress/wp-includes/template-loader.php:74
+[25-Apr-2018 07:49:05 UTC] PHP   5. get_header() /var/www/wordpress/wp-content/themes/twentyseventeen/index.php:18
+[25-Apr-2018 07:49:05 UTC] PHP   6. locate_template() /var/www/wordpress/wp-includes/general-template.php:41
+[25-Apr-2018 07:49:05 UTC] PHP   7. load_template() /var/www/wordpress/wp-includes/template.php:647
+[25-Apr-2018 07:49:05 UTC] PHP   8. require_once() /var/www/wordpress/wp-includes/template.php:688
+[25-Apr-2018 07:49:05 UTC] PHP   9. wp_head() /var/www/wordpress/wp-content/themes/twentyseventeen/header.php:22
+[25-Apr-2018 07:49:05 UTC] PHP  10. do_action() /var/www/wordpress/wp-includes/general-template.php:2614
+[25-Apr-2018 07:49:05 UTC] PHP  11. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[25-Apr-2018 07:49:05 UTC] PHP  12. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[25-Apr-2018 07:49:05 UTC] PHP  13. wp_enqueue_scripts() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[25-Apr-2018 07:49:05 UTC] PHP  14. do_action() /var/www/wordpress/wp-includes/script-loader.php:1436
+[25-Apr-2018 07:49:05 UTC] PHP  15. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[25-Apr-2018 07:49:05 UTC] PHP  16. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[25-Apr-2018 07:49:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'paypal_scriptst' not found or invalid function name in /var/www/wordpress/wp-includes/class-wp-hook.php on line 286
+[25-Apr-2018 07:49:17 UTC] PHP Stack trace:
+[25-Apr-2018 07:49:17 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[25-Apr-2018 07:49:17 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[25-Apr-2018 07:49:17 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:19
+[25-Apr-2018 07:49:17 UTC] PHP   4. include() /var/www/wordpress/wp-includes/template-loader.php:74
+[25-Apr-2018 07:49:17 UTC] PHP   5. get_header() /var/www/wordpress/wp-content/themes/twentyseventeen/single.php:13
+[25-Apr-2018 07:49:17 UTC] PHP   6. locate_template() /var/www/wordpress/wp-includes/general-template.php:41
+[25-Apr-2018 07:49:17 UTC] PHP   7. load_template() /var/www/wordpress/wp-includes/template.php:647
+[25-Apr-2018 07:49:17 UTC] PHP   8. require_once() /var/www/wordpress/wp-includes/template.php:688
+[25-Apr-2018 07:49:17 UTC] PHP   9. wp_head() /var/www/wordpress/wp-content/themes/twentyseventeen/header.php:22
+[25-Apr-2018 07:49:17 UTC] PHP  10. do_action() /var/www/wordpress/wp-includes/general-template.php:2614
+[25-Apr-2018 07:49:17 UTC] PHP  11. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[25-Apr-2018 07:49:17 UTC] PHP  12. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[25-Apr-2018 07:49:17 UTC] PHP  13. wp_enqueue_scripts() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[25-Apr-2018 07:49:17 UTC] PHP  14. do_action() /var/www/wordpress/wp-includes/script-loader.php:1436
+[25-Apr-2018 07:49:17 UTC] PHP  15. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[25-Apr-2018 07:49:17 UTC] PHP  16. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[25-Apr-2018 07:50:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'paypal_scriptst' not found or invalid function name in /var/www/wordpress/wp-includes/class-wp-hook.php on line 286
+[25-Apr-2018 07:50:58 UTC] PHP Stack trace:
+[25-Apr-2018 07:50:58 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[25-Apr-2018 07:50:58 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[25-Apr-2018 07:50:58 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:19
+[25-Apr-2018 07:50:58 UTC] PHP   4. include() /var/www/wordpress/wp-includes/template-loader.php:74
+[25-Apr-2018 07:50:58 UTC] PHP   5. get_header() /var/www/wordpress/wp-content/themes/twentyseventeen/index.php:18
+[25-Apr-2018 07:50:58 UTC] PHP   6. locate_template() /var/www/wordpress/wp-includes/general-template.php:41
+[25-Apr-2018 07:50:58 UTC] PHP   7. load_template() /var/www/wordpress/wp-includes/template.php:647
+[25-Apr-2018 07:50:58 UTC] PHP   8. require_once() /var/www/wordpress/wp-includes/template.php:688
+[25-Apr-2018 07:50:58 UTC] PHP   9. wp_head() /var/www/wordpress/wp-content/themes/twentyseventeen/header.php:22
+[25-Apr-2018 07:50:58 UTC] PHP  10. do_action() /var/www/wordpress/wp-includes/general-template.php:2614
+[25-Apr-2018 07:50:58 UTC] PHP  11. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[25-Apr-2018 07:50:58 UTC] PHP  12. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[25-Apr-2018 07:50:58 UTC] PHP  13. wp_enqueue_scripts() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[25-Apr-2018 07:50:58 UTC] PHP  14. do_action() /var/www/wordpress/wp-includes/script-loader.php:1436
+[25-Apr-2018 07:50:58 UTC] PHP  15. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[25-Apr-2018 07:50:58 UTC] PHP  16. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[25-Apr-2018 07:51:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'paypal_scriptst' not found or invalid function name in /var/www/wordpress/wp-includes/class-wp-hook.php on line 286
+[25-Apr-2018 07:51:02 UTC] PHP Stack trace:
+[25-Apr-2018 07:51:02 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[25-Apr-2018 07:51:02 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[25-Apr-2018 07:51:02 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:19
+[25-Apr-2018 07:51:02 UTC] PHP   4. include() /var/www/wordpress/wp-includes/template-loader.php:74
+[25-Apr-2018 07:51:02 UTC] PHP   5. get_header() /var/www/wordpress/wp-content/themes/twentyseventeen/single.php:13
+[25-Apr-2018 07:51:02 UTC] PHP   6. locate_template() /var/www/wordpress/wp-includes/general-template.php:41
+[25-Apr-2018 07:51:02 UTC] PHP   7. load_template() /var/www/wordpress/wp-includes/template.php:647
+[25-Apr-2018 07:51:02 UTC] PHP   8. require_once() /var/www/wordpress/wp-includes/template.php:688
+[25-Apr-2018 07:51:02 UTC] PHP   9. wp_head() /var/www/wordpress/wp-content/themes/twentyseventeen/header.php:22
+[25-Apr-2018 07:51:02 UTC] PHP  10. do_action() /var/www/wordpress/wp-includes/general-template.php:2614
+[25-Apr-2018 07:51:02 UTC] PHP  11. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[25-Apr-2018 07:51:02 UTC] PHP  12. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[25-Apr-2018 07:51:02 UTC] PHP  13. wp_enqueue_scripts() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[25-Apr-2018 07:51:02 UTC] PHP  14. do_action() /var/www/wordpress/wp-includes/script-loader.php:1436
+[25-Apr-2018 07:51:02 UTC] PHP  15. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[25-Apr-2018 07:51:02 UTC] PHP  16. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310

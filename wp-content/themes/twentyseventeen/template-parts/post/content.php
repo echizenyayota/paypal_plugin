@@ -70,6 +70,11 @@
 		?>
 	</div><!-- .entry-content -->
 
+	<?php if(is_single()): ?>
+		<div id="paypal-button-container"></div>
+		<?php paypal_scripts(); ?>
+	<?php endif; ?>
+
 	<?php
 	if ( is_single() ) {
 		twentyseventeen_entry_footer();
