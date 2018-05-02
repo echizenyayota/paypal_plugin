@@ -70,6 +70,11 @@
 		?>
 	</div><!-- .entry-content -->
 
+	<?php if(is_single()): ?>
+		<div id="paypal-button-container"></div>
+		<script="<?php plugins_url('/js/expresscheckout.js'); ?>"></script>
+	<?php endif; ?>
+
 	<?php
 	if ( is_single() ) {
 		twentyseventeen_entry_footer();
