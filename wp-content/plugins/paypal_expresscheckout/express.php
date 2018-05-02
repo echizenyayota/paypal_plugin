@@ -27,8 +27,8 @@ function paypal_scripts() {
 add_action( 'wp_enqueue_scripts', 'paypal_scripts' );
 
 // [paypal]
-function paypal_func(){
+function paypalbutton_func(){
   $paypalbutton = '<div id="paypal-button-container"></div>';
   return $paypalbutton;
 }
-add_shortcode( 'paypal', 'paypal_func' );
+add_shortcode( 'paypal', 'paypalbutton_func' );
