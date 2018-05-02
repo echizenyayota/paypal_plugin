@@ -23,9 +23,7 @@ function hook_paypalexpress() {
 
 // expresscheckout.jsの読み込み
 function plugin_paypalexpress_scripts() {
-
   wp_enqueue_style( 'plugin_paypalexpress_scripts', plugins_url( '/js/expresscheckout.js', __FILE__ ), array(), date('U') );
-
 }
 
 add_action( 'wp_enqueue_scripts', 'plugin_paypalexpress_scripts' );
