@@ -126,3 +126,22 @@
 [02-May-2018 07:03:03 UTC] PHP   9. _wp_scripts_maybe_doing_it_wrong() /var/www/wordpress/wp-includes/functions.wp-scripts.php:267
 [02-May-2018 07:03:03 UTC] PHP  10. _doing_it_wrong() /var/www/wordpress/wp-includes/functions.wp-scripts.php:47
 [02-May-2018 07:03:03 UTC] PHP  11. trigger_error() /var/www/wordpress/wp-includes/functions.php:4147
+[02-May-2018 07:12:09 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 32
+[02-May-2018 07:16:01 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 33
+[02-May-2018 07:16:19 UTC] PHP Notice:  Array to string conversion in /var/www/wordpress/wp-includes/shortcodes.php on line 319
+[02-May-2018 07:16:19 UTC] PHP Stack trace:
+[02-May-2018 07:16:19 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[02-May-2018 07:16:19 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[02-May-2018 07:16:19 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:19
+[02-May-2018 07:16:19 UTC] PHP   4. include() /var/www/wordpress/wp-includes/template-loader.php:74
+[02-May-2018 07:16:19 UTC] PHP   5. get_template_part() /var/www/wordpress/wp-content/themes/twentyseventeen/single.php:24
+[02-May-2018 07:16:19 UTC] PHP   6. locate_template() /var/www/wordpress/wp-includes/general-template.php:155
+[02-May-2018 07:16:19 UTC] PHP   7. load_template() /var/www/wordpress/wp-includes/template.php:647
+[02-May-2018 07:16:19 UTC] PHP   8. require() /var/www/wordpress/wp-includes/template.php:690
+[02-May-2018 07:16:19 UTC] PHP   9. the_content() /var/www/wordpress/wp-content/themes/twentyseventeen/template-parts/post/content.php:58
+[02-May-2018 07:16:19 UTC] PHP  10. apply_filters() /var/www/wordpress/wp-includes/post-template.php:240
+[02-May-2018 07:16:19 UTC] PHP  11. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/plugin.php:203
+[02-May-2018 07:16:19 UTC] PHP  12. do_shortcode() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[02-May-2018 07:16:19 UTC] PHP  13. preg_replace_callback() /var/www/wordpress/wp-includes/shortcodes.php:197
+[02-May-2018 07:16:19 UTC] PHP  14. do_shortcode_tag() /var/www/wordpress/wp-includes/shortcodes.php:197
+[02-May-2018 09:04:12 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 39

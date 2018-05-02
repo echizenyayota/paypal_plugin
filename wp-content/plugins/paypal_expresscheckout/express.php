@@ -26,9 +26,15 @@ function paypal_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'paypal_scripts' );
 
-// [paypal]
-function paypalbutton_func(){
-  $paypalbutton = '<div id="paypal-button-container"></div>';
-  return $paypalbutton;
+// [paypaldiv]
+function paypaldiv_func(){
+  $paypaldiv = '<div id="paypal-button-container"></div>';
+  return $paypaldiv;
 }
-add_shortcode( 'paypal', 'paypalbutton_func' );
+add_shortcode( 'paypaldiv', 'paypaldiv_func' );
+
+// [paypalbutton]
+function paypalbutton_func(){
+  paypal_scripts();
+}
+add_shortcode( 'paypalbutton', 'paypalbutton_func' );
