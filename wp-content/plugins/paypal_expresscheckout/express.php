@@ -25,3 +25,10 @@ function paypal_scripts() {
 	wp_enqueue_script( 'paypal_scripts', plugins_url('/js/expresscheckout.js'));
 }
 add_action( 'wp_enqueue_scripts', 'paypal_scripts' );
+
+// [paypal]
+function paypal_func(){
+  $paypalbutton = '<div id="paypal-button-container"></div>';
+  return $paypalbutton;
+}
+add_shortcode( 'paypal', 'paypal_func' );

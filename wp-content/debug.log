@@ -99,3 +99,30 @@
 [02-May-2018 06:43:18 UTC] PHP  19. wp_normalize_path() /var/www/wordpress/wp-includes/link-template.php:3154
 [02-May-2018 06:43:18 UTC] PHP  20. substr() /var/www/wordpress/wp-includes/functions.php:1714
 [02-May-2018 06:43:34 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 25
+[02-May-2018 06:56:56 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 38
+[02-May-2018 07:02:52 UTC] PHP Notice:  wp_enqueue_script was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /var/www/wordpress/wp-includes/functions.php on line 4147
+[02-May-2018 07:02:52 UTC] PHP Stack trace:
+[02-May-2018 07:02:52 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[02-May-2018 07:02:52 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[02-May-2018 07:02:52 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[02-May-2018 07:02:52 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[02-May-2018 07:02:52 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[02-May-2018 07:02:52 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
+[02-May-2018 07:02:52 UTC] PHP   7. paypal_scripts() /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php:41
+[02-May-2018 07:02:52 UTC] PHP   8. wp_enqueue_script() /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php:25
+[02-May-2018 07:02:52 UTC] PHP   9. _wp_scripts_maybe_doing_it_wrong() /var/www/wordpress/wp-includes/functions.wp-scripts.php:267
+[02-May-2018 07:02:52 UTC] PHP  10. _doing_it_wrong() /var/www/wordpress/wp-includes/functions.wp-scripts.php:47
+[02-May-2018 07:02:52 UTC] PHP  11. trigger_error() /var/www/wordpress/wp-includes/functions.php:4147
+[02-May-2018 07:03:03 UTC] PHP Notice:  wp_enqueue_script was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /var/www/wordpress/wp-includes/functions.php on line 4147
+[02-May-2018 07:03:03 UTC] PHP Stack trace:
+[02-May-2018 07:03:03 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[02-May-2018 07:03:03 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[02-May-2018 07:03:03 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[02-May-2018 07:03:03 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[02-May-2018 07:03:03 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[02-May-2018 07:03:03 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
+[02-May-2018 07:03:03 UTC] PHP   7. paypal_scripts() /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php:41
+[02-May-2018 07:03:03 UTC] PHP   8. wp_enqueue_script() /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php:25
+[02-May-2018 07:03:03 UTC] PHP   9. _wp_scripts_maybe_doing_it_wrong() /var/www/wordpress/wp-includes/functions.wp-scripts.php:267
+[02-May-2018 07:03:03 UTC] PHP  10. _doing_it_wrong() /var/www/wordpress/wp-includes/functions.wp-scripts.php:47
+[02-May-2018 07:03:03 UTC] PHP  11. trigger_error() /var/www/wordpress/wp-includes/functions.php:4147
