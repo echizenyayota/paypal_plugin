@@ -56,3 +56,46 @@
 [02-May-2018 05:58:51 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 26
 [02-May-2018 06:00:24 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 26
 [02-May-2018 06:00:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 26
+[02-May-2018 06:42:19 UTC] PHP Notice:  Use of undefined constant plugins_url - assumed 'plugins_url' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 25
+[02-May-2018 06:42:19 UTC] PHP Stack trace:
+[02-May-2018 06:42:19 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[02-May-2018 06:42:19 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[02-May-2018 06:42:19 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:19
+[02-May-2018 06:42:19 UTC] PHP   4. include() /var/www/wordpress/wp-includes/template-loader.php:74
+[02-May-2018 06:42:19 UTC] PHP   5. get_header() /var/www/wordpress/wp-content/themes/twentyseventeen/single.php:13
+[02-May-2018 06:42:19 UTC] PHP   6. locate_template() /var/www/wordpress/wp-includes/general-template.php:41
+[02-May-2018 06:42:19 UTC] PHP   7. load_template() /var/www/wordpress/wp-includes/template.php:647
+[02-May-2018 06:42:19 UTC] PHP   8. require_once() /var/www/wordpress/wp-includes/template.php:688
+[02-May-2018 06:42:19 UTC] PHP   9. wp_head() /var/www/wordpress/wp-content/themes/twentyseventeen/header.php:22
+[02-May-2018 06:42:19 UTC] PHP  10. do_action() /var/www/wordpress/wp-includes/general-template.php:2614
+[02-May-2018 06:42:19 UTC] PHP  11. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[02-May-2018 06:42:19 UTC] PHP  12. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[02-May-2018 06:42:19 UTC] PHP  13. wp_enqueue_scripts() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[02-May-2018 06:42:19 UTC] PHP  14. do_action() /var/www/wordpress/wp-includes/script-loader.php:1436
+[02-May-2018 06:42:19 UTC] PHP  15. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[02-May-2018 06:42:19 UTC] PHP  16. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[02-May-2018 06:42:19 UTC] PHP  17. paypal_scripts() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[02-May-2018 06:42:59 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 25
+[02-May-2018 06:43:18 UTC] PHP Warning:  substr() expects parameter 1 to be string, array given in /var/www/wordpress/wp-includes/functions.php on line 1714
+[02-May-2018 06:43:18 UTC] PHP Stack trace:
+[02-May-2018 06:43:18 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[02-May-2018 06:43:18 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[02-May-2018 06:43:18 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:19
+[02-May-2018 06:43:18 UTC] PHP   4. include() /var/www/wordpress/wp-includes/template-loader.php:74
+[02-May-2018 06:43:18 UTC] PHP   5. get_header() /var/www/wordpress/wp-content/themes/twentyseventeen/single.php:13
+[02-May-2018 06:43:18 UTC] PHP   6. locate_template() /var/www/wordpress/wp-includes/general-template.php:41
+[02-May-2018 06:43:18 UTC] PHP   7. load_template() /var/www/wordpress/wp-includes/template.php:647
+[02-May-2018 06:43:18 UTC] PHP   8. require_once() /var/www/wordpress/wp-includes/template.php:688
+[02-May-2018 06:43:18 UTC] PHP   9. wp_head() /var/www/wordpress/wp-content/themes/twentyseventeen/header.php:22
+[02-May-2018 06:43:18 UTC] PHP  10. do_action() /var/www/wordpress/wp-includes/general-template.php:2614
+[02-May-2018 06:43:18 UTC] PHP  11. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[02-May-2018 06:43:18 UTC] PHP  12. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[02-May-2018 06:43:18 UTC] PHP  13. wp_enqueue_scripts() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[02-May-2018 06:43:18 UTC] PHP  14. do_action() /var/www/wordpress/wp-includes/script-loader.php:1436
+[02-May-2018 06:43:18 UTC] PHP  15. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[02-May-2018 06:43:18 UTC] PHP  16. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[02-May-2018 06:43:18 UTC] PHP  17. paypal_scripts() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[02-May-2018 06:43:18 UTC] PHP  18. plugins_url() /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php:25
+[02-May-2018 06:43:18 UTC] PHP  19. wp_normalize_path() /var/www/wordpress/wp-includes/link-template.php:3154
+[02-May-2018 06:43:18 UTC] PHP  20. substr() /var/www/wordpress/wp-includes/functions.php:1714
+[02-May-2018 06:43:34 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 25
