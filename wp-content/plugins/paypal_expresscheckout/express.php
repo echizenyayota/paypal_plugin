@@ -34,7 +34,7 @@ function paypaldiv_func(){
 add_shortcode( 'paypaldiv', 'paypaldiv_func' );
 
 // [paypalbutton]
-function paypalbutton_func(){
-  paypal_scripts();
-}
-add_shortcode( 'paypalbutton', 'paypalbutton_func' );
+// function paypalbutton_func(){
+//   paypal_scripts();
+// }
+// add_shortcode( 'paypalbutton', 'paypalbutton_func' );
