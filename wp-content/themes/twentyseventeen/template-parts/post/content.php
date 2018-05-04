@@ -71,7 +71,6 @@
 		?>
 	</div><!-- .entry-content -->
 	<?php if ( is_single() ) : ?>
-	<div id="paypal-button-container"></div>
 		<script>
 				paypal.Button.render({
 
@@ -119,6 +118,8 @@
 				}, '#paypal-button-container');
 
 		</script>
+		<p>hoge</p>
+		<div id="paypal-button-container"></div>
 	<?php endif; ?>
 	<?php
 	if ( is_single() ) {
