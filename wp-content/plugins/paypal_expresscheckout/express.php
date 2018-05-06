@@ -13,28 +13,16 @@ License: GPLv2 or later
 Text Domain: paypal_expresscheckout
 */
 
-// paypalobjectsをヘッドタグ内に挿入
-function hook_paypalexpress() {
-	$output = '<script src="https://www.paypalobjects.com/api/checkout.js"></script>';
-	echo $output;
-}
-add_action( 'wp_head', 'hook_paypalexpress' );
-
-// expresscheckout.jsの読み込み
+// wp_enqueue_scripts フックでpaypal_scriptsをエンキューする
 function paypal_scripts() {
-	wp_enqueue_script( 'paypal_scripts', plugins_url('/js/expresscheckout.js'));
+	wp_enqueue_script( 'paypal-checkout', 'https://www.paypalobjects.com/api/checkout.js' );
+	wp_enqueue_script( 'paypal-expresscheckout', plugin_dir_url( __FILE__ ) . '/js/expresscheckout.js', array( 'paypal-checkout' ) );
 }
 add_action( 'wp_enqueue_scripts', 'paypal_scripts' );
 
-// [paypaldiv]
+// [paypaldiv]のショートコード （投稿記事画面に貼るとPayPalボタンが表示されるt）
 function paypaldiv_func(){
   $paypaldiv = '<div id="paypal-button-container"></div>';
   return $paypaldiv;
 }
 add_shortcode( 'paypaldiv', 'paypaldiv_func' );
-
-// [paypalbutton]
-// function paypalbutton_func(){
-//   paypal_scripts();
-// }
-// add_shortcode( 'paypalbutton', 'paypalbutton_func' );
