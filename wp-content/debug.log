@@ -145,3 +145,4 @@
 [02-May-2018 07:16:19 UTC] PHP  13. preg_replace_callback() /var/www/wordpress/wp-includes/shortcodes.php:197
 [02-May-2018 07:16:19 UTC] PHP  14. do_shortcode_tag() /var/www/wordpress/wp-includes/shortcodes.php:197
 [02-May-2018 09:04:12 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 39
+[06-May-2018 23:39:20 UTC] PHP Parse error:  syntax error, unexpected 'paypal_scripts' (T_STRING), expecting '(' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 18
