@@ -26,3 +26,24 @@ function paypaldiv_func(){
   return $paypaldiv;
 }
 add_shortcode( 'paypaldiv', 'paypaldiv_func' );
+
+// 管理画面の表示
+function paypalexpresscheckout_add_admin_menu(){
+    add_submenu_page('plugins.php','PayPal Express Checkoutの設定','PayPal Express Checkoutの設定', 'administrator', __FILE__, 'paypalexpresscheckout_admin_menu');
+}
+add_action('admin_menu', 'paypalexpresscheckout_add_admin_menu');
+
+
+function paypalexpresscheckout_admin_menu() {
+	echo <<<EOD
+	<h2>PayPal Express Checkoutの設定画面</h2>
+
+		Color:
+		<input type="radio" name="color" value="red" checked> Red
+		<input type="radio" name="color" value="blue"> Blue
+
+		<form>
+		 client_Token: <input type="text" size="50" id="token_string">
+		</form>
+EOD;
+}

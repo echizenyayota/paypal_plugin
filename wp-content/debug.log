@@ -153,3 +153,23 @@
 [09-May-2018 06:51:38 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
 [09-May-2018 06:51:38 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
 [09-May-2018 06:51:38 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-May-2018 06:56:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sample_plugin_admin_page' not found or invalid function name in /var/www/wordpress/wp-includes/class-wp-hook.php on line 286
+[09-May-2018 06:56:14 UTC] PHP Stack trace:
+[09-May-2018 06:56:14 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-May-2018 06:56:14 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-May-2018 06:56:14 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[09-May-2018 06:56:14 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-May-2018 06:56:14 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-May-2018 06:59:16 UTC] PHP Parse error:  syntax error, unexpected '<' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 39
+[09-May-2018 07:01:17 UTC] PHP Parse error:  syntax error, unexpected '<' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 39
+[09-May-2018 07:03:17 UTC] PHP Parse error:  syntax error, unexpected '<' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 39
+[09-May-2018 07:05:18 UTC] PHP Parse error:  syntax error, unexpected '<' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 39
+[09-May-2018 07:07:04 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or heredoc end (T_END_HEREDOC) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 49
+[09-May-2018 07:07:06 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or heredoc end (T_END_HEREDOC) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 49
+[09-May-2018 07:19:53 UTC] PHP Fatal error:  Cannot redeclare paypal_expresscheckout_add_admin_page() (previously declared in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php:30) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 48
+[09-May-2018 07:19:53 UTC] PHP Stack trace:
+[09-May-2018 07:19:53 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-May-2018 07:19:53 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-May-2018 07:19:53 UTC] PHP   3. require_once() /var/www/wordpress/wp-admin/admin.php:31
+[09-May-2018 07:19:53 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[09-May-2018 07:19:53 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
