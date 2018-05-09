@@ -46,6 +46,7 @@ function paypalexpresscheckout_admin_menu() {
       <input type="radio" name="color" value="blue"> blue
 			<input type="radio" name="color" value="silver"> silver
 			<input type="radio" name="color" value="black"> black
+			<input type="submit" value="保存">
 		<form>
 EOD;
 }
