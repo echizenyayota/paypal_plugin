@@ -146,3 +146,10 @@
 [02-May-2018 07:16:19 UTC] PHP  14. do_shortcode_tag() /var/www/wordpress/wp-includes/shortcodes.php:197
 [02-May-2018 09:04:12 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 39
 [06-May-2018 23:39:20 UTC] PHP Parse error:  syntax error, unexpected 'paypal_scripts' (T_STRING), expecting '(' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 18
+[09-May-2018 06:51:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sample_plugin_admin_page' not found or invalid function name in /var/www/wordpress/wp-includes/class-wp-hook.php on line 286
+[09-May-2018 06:51:38 UTC] PHP Stack trace:
+[09-May-2018 06:51:38 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/plugins.php:0
+[09-May-2018 06:51:38 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/plugins.php:10
+[09-May-2018 06:51:38 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[09-May-2018 06:51:38 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-May-2018 06:51:38 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
