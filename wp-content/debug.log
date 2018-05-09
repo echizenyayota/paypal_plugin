@@ -146,3 +146,22 @@
 [02-May-2018 07:16:19 UTC] PHP  14. do_shortcode_tag() /var/www/wordpress/wp-includes/shortcodes.php:197
 [02-May-2018 09:04:12 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 39
 [06-May-2018 23:39:20 UTC] PHP Parse error:  syntax error, unexpected 'paypal_scripts' (T_STRING), expecting '(' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 18
+[09-May-2018 02:41:21 UTC] PHP Notice:  Undefined variable: color_arr in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 21
+[09-May-2018 02:41:21 UTC] PHP Stack trace:
+[09-May-2018 02:41:21 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[09-May-2018 02:41:21 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[09-May-2018 02:41:21 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:19
+[09-May-2018 02:41:21 UTC] PHP   4. include() /var/www/wordpress/wp-includes/template-loader.php:74
+[09-May-2018 02:41:21 UTC] PHP   5. get_header() /var/www/wordpress/wp-content/themes/twentyseventeen/single.php:13
+[09-May-2018 02:41:21 UTC] PHP   6. locate_template() /var/www/wordpress/wp-includes/general-template.php:41
+[09-May-2018 02:41:21 UTC] PHP   7. load_template() /var/www/wordpress/wp-includes/template.php:647
+[09-May-2018 02:41:21 UTC] PHP   8. require_once() /var/www/wordpress/wp-includes/template.php:688
+[09-May-2018 02:41:21 UTC] PHP   9. wp_head() /var/www/wordpress/wp-content/themes/twentyseventeen/header.php:22
+[09-May-2018 02:41:21 UTC] PHP  10. do_action() /var/www/wordpress/wp-includes/general-template.php:2614
+[09-May-2018 02:41:21 UTC] PHP  11. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-May-2018 02:41:21 UTC] PHP  12. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-May-2018 02:41:21 UTC] PHP  13. wp_enqueue_scripts() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-May-2018 02:41:21 UTC] PHP  14. do_action() /var/www/wordpress/wp-includes/script-loader.php:1436
+[09-May-2018 02:41:21 UTC] PHP  15. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[09-May-2018 02:41:21 UTC] PHP  16. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[09-May-2018 02:41:21 UTC] PHP  17. paypal_scripts() /var/www/wordpress/wp-includes/class-wp-hook.php:286
