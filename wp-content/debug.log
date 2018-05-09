@@ -165,3 +165,6 @@
 [09-May-2018 02:41:21 UTC] PHP  15. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
 [09-May-2018 02:41:21 UTC] PHP  16. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
 [09-May-2018 02:41:21 UTC] PHP  17. paypal_scripts() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[09-May-2018 07:56:26 UTC] PHP Parse error:  syntax error, unexpected ''style'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 22
+[09-May-2018 07:56:28 UTC] PHP Parse error:  syntax error, unexpected ''style'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 22
+[09-May-2018 07:57:00 UTC] PHP Parse error:  syntax error, unexpected ''style'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 22
