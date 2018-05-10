@@ -146,3 +146,101 @@
 [02-May-2018 07:16:19 UTC] PHP  14. do_shortcode_tag() /var/www/wordpress/wp-includes/shortcodes.php:197
 [02-May-2018 09:04:12 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 39
 [06-May-2018 23:39:20 UTC] PHP Parse error:  syntax error, unexpected 'paypal_scripts' (T_STRING), expecting '(' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 18
+[10-May-2018 03:24:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 55
+[10-May-2018 03:24:15 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 33
+[10-May-2018 03:24:15 UTC] PHP Stack trace:
+[10-May-2018 03:24:15 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[10-May-2018 03:24:15 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[10-May-2018 03:24:15 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[10-May-2018 03:24:15 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[10-May-2018 03:24:15 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[10-May-2018 03:24:15 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
+[10-May-2018 03:24:15 UTC] PHP Warning:  require_once(http://wocker.test/wp-content/plugins/paypal_expresscheckout//express_admin.php): failed to open stream: no suitable wrapper could be found in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 33
+[10-May-2018 03:24:15 UTC] PHP Stack trace:
+[10-May-2018 03:24:15 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[10-May-2018 03:24:15 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[10-May-2018 03:24:15 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[10-May-2018 03:24:15 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[10-May-2018 03:24:15 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[10-May-2018 03:24:15 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
+[10-May-2018 03:24:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://wocker.test/wp-content/plugins/paypal_expresscheckout//express_admin.php' (include_path='.:/usr/share/php') in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 33
+[10-May-2018 03:24:15 UTC] PHP Stack trace:
+[10-May-2018 03:24:15 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[10-May-2018 03:24:15 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[10-May-2018 03:24:15 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[10-May-2018 03:24:15 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[10-May-2018 03:24:15 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[10-May-2018 03:24:15 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
+[10-May-2018 03:24:39 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 33
+[10-May-2018 03:24:39 UTC] PHP Stack trace:
+[10-May-2018 03:24:39 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[10-May-2018 03:24:39 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[10-May-2018 03:24:39 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[10-May-2018 03:24:39 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[10-May-2018 03:24:39 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[10-May-2018 03:24:39 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
+[10-May-2018 03:24:39 UTC] PHP Warning:  require_once(http://wocker.test/wp-content/plugins/paypal_expresscheckout/express_admin.php): failed to open stream: no suitable wrapper could be found in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 33
+[10-May-2018 03:24:39 UTC] PHP Stack trace:
+[10-May-2018 03:24:39 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[10-May-2018 03:24:39 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[10-May-2018 03:24:39 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[10-May-2018 03:24:39 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[10-May-2018 03:24:39 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[10-May-2018 03:24:39 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
+[10-May-2018 03:24:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://wocker.test/wp-content/plugins/paypal_expresscheckout/express_admin.php' (include_path='.:/usr/share/php') in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 33
+[10-May-2018 03:24:39 UTC] PHP Stack trace:
+[10-May-2018 03:24:39 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[10-May-2018 03:24:39 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[10-May-2018 03:24:39 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[10-May-2018 03:24:39 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[10-May-2018 03:24:39 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[10-May-2018 03:24:39 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
+[10-May-2018 03:25:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 55
+[10-May-2018 03:26:15 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 33
+[10-May-2018 03:26:15 UTC] PHP Stack trace:
+[10-May-2018 03:26:15 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[10-May-2018 03:26:15 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[10-May-2018 03:26:15 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[10-May-2018 03:26:15 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[10-May-2018 03:26:15 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[10-May-2018 03:26:15 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
+[10-May-2018 03:26:15 UTC] PHP Warning:  require_once(http://wocker.test/wp-content/plugins/paypal_expresscheckout/express_admin.php): failed to open stream: no suitable wrapper could be found in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 33
+[10-May-2018 03:26:15 UTC] PHP Stack trace:
+[10-May-2018 03:26:15 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[10-May-2018 03:26:15 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[10-May-2018 03:26:15 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[10-May-2018 03:26:15 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[10-May-2018 03:26:15 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[10-May-2018 03:26:15 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
+[10-May-2018 03:26:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://wocker.test/wp-content/plugins/paypal_expresscheckout/express_admin.php' (include_path='.:/usr/share/php') in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 33
+[10-May-2018 03:26:15 UTC] PHP Stack trace:
+[10-May-2018 03:26:15 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[10-May-2018 03:26:15 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[10-May-2018 03:26:15 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[10-May-2018 03:26:15 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[10-May-2018 03:26:15 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[10-May-2018 03:26:15 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
+[10-May-2018 03:26:44 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 33
+[10-May-2018 03:26:44 UTC] PHP Stack trace:
+[10-May-2018 03:26:44 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[10-May-2018 03:26:44 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[10-May-2018 03:26:44 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[10-May-2018 03:26:44 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[10-May-2018 03:26:44 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[10-May-2018 03:26:44 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
+[10-May-2018 03:26:44 UTC] PHP Warning:  require_once(http://wocker.test/wp-content/plugins/paypal_expresscheckout/express_admin.php): failed to open stream: no suitable wrapper could be found in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 33
+[10-May-2018 03:26:44 UTC] PHP Stack trace:
+[10-May-2018 03:26:44 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[10-May-2018 03:26:44 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[10-May-2018 03:26:44 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[10-May-2018 03:26:44 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[10-May-2018 03:26:44 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[10-May-2018 03:26:44 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
+[10-May-2018 03:26:44 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://wocker.test/wp-content/plugins/paypal_expresscheckout/express_admin.php' (include_path='.:/usr/share/php') in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express.php on line 33
+[10-May-2018 03:26:44 UTC] PHP Stack trace:
+[10-May-2018 03:26:44 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[10-May-2018 03:26:44 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[10-May-2018 03:26:44 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[10-May-2018 03:26:44 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[10-May-2018 03:26:44 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
+[10-May-2018 03:26:44 UTC] PHP   6. include_once() /var/www/wordpress/wp-settings.php:305
