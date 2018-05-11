@@ -30,4 +30,4 @@ function paypaldiv_func(){
 }
 add_shortcode( 'paypaldiv', 'paypaldiv_func' );
 
-require_once(plugin_dir_url( __FILE__ ) . 'express_admin.php');
+require_once(__DIR__ . '/express_admin.php');
