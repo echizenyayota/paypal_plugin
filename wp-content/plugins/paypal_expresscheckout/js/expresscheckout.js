@@ -9,7 +9,8 @@ paypal.Button.render({
             },
 
             style: {
-                color: blue,
+                // color: blue,
+                color: paypal_expresscheckout_param.color
                 size: 'small'
             },
 
