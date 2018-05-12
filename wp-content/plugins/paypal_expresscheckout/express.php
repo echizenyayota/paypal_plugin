@@ -18,7 +18,7 @@ function paypal_scripts() {
 	wp_enqueue_script( 'paypal-checkout', 'https://www.paypalobjects.com/api/checkout.js' );
 	wp_enqueue_script( 'paypal-expresscheckout', plugin_dir_url( __FILE__ ) . '/js/expresscheckout.js', array( 'paypal-checkout' ) );
 	wp_localize_script( 'paypal-expresscheckout', 'paypal_expresscheckout_param', array(
-			'color' => '', // gold, blue, silver, black
+			'color' => '$POST', // gold, blue, silver, black
 	) );
 }
 add_action( 'wp_enqueue_scripts', 'paypal_scripts' );
