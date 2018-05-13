@@ -5,6 +5,13 @@ function paypalexpresscheckout_add_admin_menu(){
 }
 add_action('admin_menu', 'paypalexpresscheckout_add_admin_menu');
 
+// インスタンス
+
+// postメソッド
+
+// errorメソッド
+
+
 // 管理画面の設定
 function paypalexpresscheckout_admin_menu() {
 	echo <<<EOD
