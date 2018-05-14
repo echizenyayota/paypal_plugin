@@ -153,3 +153,7 @@
 [14-May-2018 05:19:17 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
 [14-May-2018 05:19:17 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
 [14-May-2018 05:19:17 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[14-May-2018 06:43:59 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express_admin.php on line 18
+[14-May-2018 06:44:01 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express_admin.php on line 18
+[14-May-2018 06:50:56 UTC] PHP Parse error:  syntax error, unexpected ''custom-script'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express_admin.php on line 19
+[14-May-2018 06:52:56 UTC] PHP Parse error:  syntax error, unexpected 'jquery' (T_STRING), expecting ',' or ')' in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/express_admin.php on line 19
