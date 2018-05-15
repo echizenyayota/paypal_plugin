@@ -1,4 +1,4 @@
-jQuery(function() {
+jQuery(document).ready(function() {
     'use strict';
     jQuery('#btncolor').on('click', function() {
       if (jQuery('#btncolor').val() === '') {
